@@ -2,7 +2,7 @@
 
 function palindrome(str){	
 	str=str.toLowerCase();
-	let rev=str.split(" ").reverse().join(" ");
+	let rev=str.split("").reverse().join("");
 	return rev===str;
 }
 module.exports = palindrome
